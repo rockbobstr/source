@@ -259,8 +259,8 @@
         settings: {
             botName: 'basicBot',
             language: 'english',
-            chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
-            scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
+            chatLink: 'https://github.com/rockbobstr/source/blob/master/lang/en.json',
+            scriptLink: 'https://github.com/rockbobstr/source/blob/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
