@@ -889,7 +889,7 @@
                 var u = basicBot.userUtilities.lookupUser(user.id);
                 var jt = u.jointime;
                 var t = Date.now() - jt;
-                if (t < 10 * 1000) greet = false;
+                if (t < 1) greet = false;
                 else welcomeback = true;
             } else {
                 basicBot.room.users.push(new basicBot.User(user.id, user.username));
