@@ -3213,7 +3213,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
                         return API.sendChat(subChat(basicBot.chat.becky, {
-                                   becky: this.getbecky()
+                                   becky: this.getbecky()))
                         }
                     }
                 }
