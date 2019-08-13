@@ -249,9 +249,9 @@
         status: false,
         name: 'basicBot',
         loggedInID: null,
-        scriptLink: 'https://github.com/rockbobstr/source/blob/master/basicBot.js',
+        scriptLink: 'https://raw.githubusercontent.com/rockbobstr/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://github.com/rockbobstr/source/blob/master/lang/en.json',
+        chatLink: 'https://raw.githubusercontent.com/rockbobstr/source/master/lang/en.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -259,8 +259,8 @@
         settings: {
             botName: 'basicBot',
             language: 'english',
-            chatLink: 'https://github.com/rockbobstr/source/blob/master/lang/en.json',
-            scriptLink: 'https://github.com/rockbobstr/source/blob/master/basicBot.js',
+            chatLink: 'https://raw.githubusercontent.com/rockbobstr/source/master/lang/en.json',
+            scriptLink: 'https://raw.githubusercontent.com/rockbobstr/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
