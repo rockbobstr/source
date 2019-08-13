@@ -3207,7 +3207,10 @@
             beckyCommand: {
                 command: 'becky',
                 rank: 'user',
-                type: 'exact',
+                type: 'startswith',
+                getbecky: function(chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.becky.length);
+                    return basicBot.chat.becky[c];
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
