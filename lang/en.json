@@ -21,9 +21,6 @@
         "gives you an old cookie that was left out in the rain, it's moldy.",
         "bakes you fresh cookies, it smells amazing."
     ],
-    "beckys": [
-        "So Thicc."
-    ],
     "balls": [
         "Signs point to yes.",
         "Yes.",
@@ -150,7 +147,6 @@
     "nousercookie": "\/em doesn't see %%NAME%% in room and eats a cookie himself.",
     "selfcookie": "\/me @%%NAME%%, you're a bit greedy, aren't you? Giving cookies to yourself, bah. Share some with other people!",
     "cookie": "\/me @%%NAMETO%%, %%NAMEFROM%% %%COOKIE%%",
-    "becky": "\/me %%BECKYS%%",
     "cycleguardtime": "\/me [@%%NAME%%] The cycleguard is set to %%TIME%% minute(s).",
     "dclookuprank": "\/me [@%%NAME%%] Only bouncers and above can do a lookup for others.",
     "emojilist": "\/me Emoji list: %%LINK%%",
@@ -186,6 +182,7 @@
     "muterank": "\/me [@%%NAME%%] You can't mute persons with an equal or higher rank than you.",
     "oplist": "\/me OP list: %%LINK%%",
     "pong": "\/me Pong!",
+    "becky": "\/me That bitch is thicc AF!",
     "reload": "\/me Be right back.",
     "removenotinwl": "\/me [@%%NAME%%] Specified user @%%USERNAME%% is not in the waitlist.",
     "roomrules": "\/me Please find the room rules here: %%LINK%%",
