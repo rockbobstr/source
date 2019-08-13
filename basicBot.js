@@ -3207,15 +3207,13 @@
             beckyCommand: {
                 command: 'becky',
                 rank: 'user',
-                type: 'startswith',
-                getbecky: function(chat) {
-                    var c = Math.floor(Math.random() * basicBot.chat.becky.length);
-                    return basicBot.chat.becky[c];
+                type: 'exact',
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
-                        API.sendChat(basicBot.chat.becky)
+                        return API.sendChat(subChat(basicBot.chat.cookie, {
+                                   becky: this.getbecky())
                     }
                 }
             },
